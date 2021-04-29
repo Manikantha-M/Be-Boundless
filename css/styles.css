@@ -694,6 +694,10 @@ footer {
 }
 .show-links {
   height: 275px;
+  background: var(--clr-white);
+}
+.show-links a {
+  color: var(--clr-primary);
 }
 @media screen and (min-width: 425px) {
   .nav-div {
@@ -736,4 +740,17 @@ footer {
 
     font-weight: 1000;
   }
+}
+
+.navbar-fixed {
+  background: var(--clr-white);
+}
+.navbar-fixed h2 {
+  color: var(--clr-primary);
+}
+.navbar-fixed a {
+  color: var(--clr-primary);
+}
+.navbar-fixed .nav-toggle {
+  color: var(--clr-primary);
 }
